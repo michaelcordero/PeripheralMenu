@@ -22,7 +22,7 @@
 //  SOFTWARE.
 
 // MARK: - Extension for implementing the specific functionality for when side panel is positioned under the center
-extension SideMenuController {
+extension PeripheralMenuController {
     
     // MARK: - Methods -
     

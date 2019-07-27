@@ -1,5 +1,5 @@
 //
-//  SideMenuController.swift
+//  PeripheralMenuController.swift
 //
 // Copyright (c) 2019 Michael Cordero
 //
@@ -23,14 +23,14 @@
 
 import UIKit
 
-public protocol SideMenuControllerDelegate: class {
-    func sideMenuControllerDidHide(_ sideMenuController: SideMenuController)
-    func sideMenuControllerDidReveal(_ sideMenuController: SideMenuController)
+public protocol PeripheralMenuControllerDelegate: class {
+    func PeripheralMenuControllerDidHide(_ PeripheralMenuController: PeripheralMenuController)
+    func PeripheralMenuControllerDidReveal(_ PeripheralMenuController: PeripheralMenuController)
 }
 
 // MARK: - Public methods -
 
-public extension SideMenuController {
+public extension PeripheralMenuController {
     
     /**
      Toggles the side pannel visible or not.
@@ -125,13 +125,13 @@ public extension SideMenuController {
     }
 }
 
-open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
+open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelegate {
     
     // MARK: - Instance variables -
     
     // MARK: Public
     
-    open weak var delegate: SideMenuControllerDelegate?
+    open weak var delegate: PeripheralMenuControllerDelegate?
     public static var preferences: Preferences = Preferences()
     internal(set) public var sidePanelVisible = false
     
@@ -184,7 +184,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
     
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        NotificationCenter.default.addObserver(self, selector: #selector(SideMenuController.repositionViews), name: UIApplication.willChangeStatusBarFrameNotification, object: UIApplication.shared)
+        NotificationCenter.default.addObserver(self, selector: #selector(peripheralMenuController!.repositionViews), name: UIApplication.willChangeStatusBarFrameNotification, object: UIApplication.shared)
     }
     
     override open func viewWillDisappear(_ animated: Bool) {
@@ -330,7 +330,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
             self.transitionInProgress = false
             self.centerViewController.view.isUserInteractionEnabled = !reveal
             if updated {
-                let delegateMethod = reveal ? self.delegate?.sideMenuControllerDidReveal : self.delegate?.sideMenuControllerDidHide
+                let delegateMethod = reveal ? self.delegate?.PeripheralMenuControllerDidReveal : self.delegate?.PeripheralMenuControllerDidHide
                 delegateMethod?(self)
             }
         }
@@ -406,7 +406,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
         return screenSize.width < screenSize.height
     }
     
-    var canDisplaySideController: Bool {
+    var canDisplayperipheralController: Bool {
         return sideViewController != nil
     }
     
