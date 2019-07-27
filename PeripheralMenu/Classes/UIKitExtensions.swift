@@ -35,38 +35,38 @@ extension UIView {
 
 public extension UINavigationController {
     func addSideMenuButton(completion: ((UIButton) -> ())? = nil) {
-        guard let image = SideMenuController.preferences.drawing.menuButtonImage else {
+        guard let image = PeripheralMenuController.preferences.drawing.menuButtonImage else {
             return
         }
         
-        guard let sideMenuController = self.sideMenuController else {
+        guard let peripheralMenuController = self.peripheralMenuController else {
             return
         }
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
-        button.accessibilityIdentifier = SideMenuController.preferences.interaction.menuButtonAccessibilityIdentifier
+        button.accessibilityIdentifier = PeripheralMenuController.preferences.interaction.menuButtonAccessibilityIdentifier
         button.setImage(image, for: UIControl.State.normal)
-        button.addTarget(sideMenuController, action: #selector(SideMenuController.toggle), for: UIControl.Event.touchUpInside)
+        button.addTarget(peripheralMenuController, action: #selector(PeripheralMenuController.toggle), for: UIControl.Event.touchUpInside)
         
-        if SideMenuController.preferences.drawing.sidePanelPosition.isPositionedLeft {
-            let newItems = computeNewItems(sideMenuController: sideMenuController, button: button, controller: self.topViewController, positionLeft: true)
+        if PeripheralMenuController.preferences.drawing.sidePanelPosition.isPositionedLeft {
+            let newItems = computeNewItems(peripheralMenuController: peripheralMenuController, button: button, controller: self.topViewController, positionLeft: true)
             self.topViewController?.navigationItem.leftBarButtonItems = newItems
         } else {
-            let newItems = computeNewItems(sideMenuController: sideMenuController, button: button, controller: self.topViewController, positionLeft: false)
+            let newItems = computeNewItems(peripheralMenuController: peripheralMenuController, button: button, controller: self.topViewController, positionLeft: false)
             self.topViewController?.navigationItem.rightBarButtonItems = newItems
         }
         
         completion?(button)
     }
     
-    private func computeNewItems(sideMenuController: SideMenuController, button: UIButton, controller: UIViewController?, positionLeft: Bool) -> [UIBarButtonItem] {
+    private func computeNewItems(peripheralMenuController: PeripheralMenuController, button: UIButton, controller: UIViewController?, positionLeft: Bool) -> [UIBarButtonItem] {
         
         var items: [UIBarButtonItem] = (positionLeft ? self.topViewController?.navigationItem.leftBarButtonItems :
             self.topViewController?.navigationItem.rightBarButtonItems) ?? []
         
         for item in items {
             if let button = item.customView as? UIButton,
-                button.allTargets.contains(sideMenuController) {
+                button.allTargets.contains(peripheralMenuController) {
                 return items
             }
         }
@@ -83,7 +83,7 @@ public extension UINavigationController {
 }
 
 extension UIWindow {
-    func set(_ hidden: Bool, withBehaviour behaviour: SideMenuController.StatusBarBehaviour) {
+    func set(_ hidden: Bool, withBehaviour behaviour: PeripheralMenuController.StatusBarBehaviour) {
         let animations: () -> ()
         
         switch behaviour {
@@ -109,18 +109,18 @@ extension UIWindow {
 
 public extension UIViewController {
     
-    var sideMenuController: SideMenuController? {
-        return sideMenuControllerForViewController(self)
+    var peripheralMenuController: PeripheralMenuController? {
+        return peripheralMenuControllerForViewController(self)
     }
     
-    fileprivate func sideMenuControllerForViewController(_ controller : UIViewController) -> SideMenuController?
+    fileprivate func peripheralMenuControllerForViewController(_ controller : UIViewController) -> PeripheralMenuController?
     {
-        if let sideController = controller as? SideMenuController {
-            return sideController
+        if let peripheral_controller = controller as? PeripheralMenuController {
+            return peripheral_controller
         }
         
         if let parent = controller.parent {
-            return sideMenuControllerForViewController(parent)
+            return peripheralMenuControllerForViewController(parent)
         } else {
             return nil
         }

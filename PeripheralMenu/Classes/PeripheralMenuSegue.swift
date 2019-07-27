@@ -24,10 +24,10 @@
 open class PeripheralMenuSegue: UIStoryboardSegue{
     
     override open func perform() {
-        if let sideController = self.source as? PeripheralMenuController {
-            sideController.embed(sideViewController: destination)
+        if let peripheralController = self.source as? PeripheralMenuController {
+            peripheralController.embed(sideViewController: destination)
         } else {
-            fatalError("This type of segue must only be used from a SideMenuController")
+            fatalError("This type of segue must only be used from a PeripheralMenuController")
         }
     }
 }

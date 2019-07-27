@@ -6,25 +6,24 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		803899A6CB4F1458084B967893831EB9 /* PeripheralMenu */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B47AC8F0676D4DF80CB7A5CD53E4AC7D /* Build configuration list for PBXAggregateTarget "PeripheralMenu" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = PeripheralMenu;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		25BF5AFC740D3EDB5C91A86D1F842A59 /* Pods-PeripheralMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C6069895B5E4B4B4B8AC451E4C8821 /* Pods-PeripheralMenu_Example-dummy.m */; };
-		29E1186B4D824598E78C57A966C0B1B8 /* Pods-PeripheralMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F925BF4424D6DC0B030DB2704B368FF /* Pods-PeripheralMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE4AF3E65CB52436059DC29898DB254 /* PeripheralMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6267EB5F6A968A1E24D91096B56EC /* PeripheralMenu-dummy.m */; };
+		0ED988D3648CA1DA89F26801B292C81C /* peripheralMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7DE69BF76687EED613A7650F88395F /* peripheralMenuController.swift */; };
+		25BF5AFC740D3EDB5C91A86D1F842A59 /* Pods-PeripheralMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552AE50BB0B8A933551BB92340DFE733 /* Pods-PeripheralMenu_Example-dummy.m */; };
+		29E1186B4D824598E78C57A966C0B1B8 /* Pods-PeripheralMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6790FC6D0CA6AEF3E5546F216E147D46 /* Pods-PeripheralMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825D94293D6F98368FCDB7ED3B4C6173 /* PeripheralMenuController+CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A62ACE1FEF1CDB3E831F7AB40B0A46 /* PeripheralMenuController+CustomTypes.swift */; };
+		9DBAEFF3A18C7D103293776E04755463 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FCA6837E408F6B1A31B7426F1D22 /* TransitionAnimator.swift */; };
+		B60F609F7FEA2CB8F74F35C04816C622 /* PeripheralMenuController+SideOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B7DC9F611E06285653F25E9A7943C /* PeripheralMenuController+SideOver.swift */; };
+		C3DACF1AAEA1EC2ACA16AD4332C55F7C /* CenterContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412477B3F7AC737C92D4982ACCFD319D /* CenterContainmentSegue.swift */; };
+		C7980318B402A6729082888AD5E66187 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3083A0CF153E5D50E261480C275B1 /* UIKitExtensions.swift */; };
+		C89E1B58292EC6E1BC256A4B5EFB688C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		CABBE032367CBAAFA5F5B77DB8581381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CE7B6F3D97913B88FF7187C29C6861F6 /* PeripheralMenuController+SideUnder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC873E9F2346EDB194656BC3880E6A5 /* PeripheralMenuController+SideUnder.swift */; };
+		D34F9A55FF9344D1D6E876D4FF114C96 /* PeripheralMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D7B04DC47F1D2FCABACD784ACBFA25 /* PeripheralMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27006A9CC9739ABCE3B71E79D5AA87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E2AB948C82206BA5D6C5D80E69C83787 /* Pods-PeripheralMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F051F54A04E169D2FD6D0D966339069E /* Pods-PeripheralMenu_Tests-dummy.m */; };
-		FC51D905119D532178097536B05E9F9D /* Pods-PeripheralMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78136D0369E20F3529C9B79A0933F28A /* Pods-PeripheralMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AB948C82206BA5D6C5D80E69C83787 /* Pods-PeripheralMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90182A5B663710653F43F9DC9925A91C /* Pods-PeripheralMenu_Tests-dummy.m */; };
+		F87DC5C21177121C857D11A89841997E /* PeripheralMenuSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8110D1202849BC7A15CDB26E62AC36 /* PeripheralMenuSegue.swift */; };
+		FC51D905119D532178097536B05E9F9D /* Pods-PeripheralMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 366BC91B5AB0EB37B40E5E7B2582E9FC /* Pods-PeripheralMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 803899A6CB4F1458084B967893831EB9;
+			remoteGlobalIDString = 2E8CDE44A3839C654FF2A1E5BDD599F0;
 			remoteInfo = PeripheralMenu;
 		};
 		4363380B1F1388451C3BA783A783300F /* PBXContainerItemProxy */ = {
@@ -45,30 +44,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ABEB8A2DC0B2689CBE42860646869D5 /* PeripheralMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PeripheralMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		29AC6B8A13A0564183503738A5C0A879 /* Pods-PeripheralMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeripheralMenu_Tests.modulemap"; sourceTree = "<group>"; };
-		303F34F48229245FA409227AD7B0E968 /* Pods_PeripheralMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PeripheralMenu_Tests.framework; path = "Pods-PeripheralMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40D1BBDDDCE1F1522DCD8D13619D3C23 /* Pods-PeripheralMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4F925BF4424D6DC0B030DB2704B368FF /* Pods-PeripheralMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeripheralMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5D544DC57BE985A513223B87B5D1EED7 /* Pods-PeripheralMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F6734286BBB5DE462053F3D505D818F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		61D3034E69AC6929459EC7FC890C3756 /* Pods-PeripheralMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Tests-Info.plist"; sourceTree = "<group>"; };
-		78136D0369E20F3529C9B79A0933F28A /* Pods-PeripheralMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeripheralMenu_Example-umbrella.h"; sourceTree = "<group>"; };
-		83B248DCDD04837604FD21AD0EAE173B /* Pods-PeripheralMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D49C33FEB96991FBFAF7C047DC8682A /* Pods-PeripheralMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
-		912114C54842CD632A7445E739FBC15D /* Pods-PeripheralMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeripheralMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		954A56A679B8A0E682E6BD1CB4F2743C /* Pods-PeripheralMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A958FD6FAA25B141F03828B838743C3E /* Pods-PeripheralMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeripheralMenu_Example.modulemap"; sourceTree = "<group>"; };
-		B4B9FD2F54805C09C9646AC7073705BE /* PeripheralMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PeripheralMenu.xcconfig; sourceTree = "<group>"; };
-		B8C6069895B5E4B4B4B8AC451E4C8821 /* Pods-PeripheralMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeripheralMenu_Example-dummy.m"; sourceTree = "<group>"; };
-		BC0F2FB9747BFF0F7D04AF1589F14FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C755615B8B3294421820E16A3E873926 /* Pods_PeripheralMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PeripheralMenu_Example.framework; path = "Pods-PeripheralMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC873E9F2346EDB194656BC3880E6A5 /* PeripheralMenuController+SideUnder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PeripheralMenuController+SideUnder.swift"; path = "PeripheralMenu/Classes/PeripheralMenuController+SideUnder.swift"; sourceTree = "<group>"; };
+		1E1681A3344DEB943DEE3D6649236351 /* Pods-PeripheralMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Example-Info.plist"; sourceTree = "<group>"; };
+		21AC572FF8826B4F3F5FAC0FAE057346 /* PeripheralMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PeripheralMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		22804BA790CCDEDD5EA307DC6D2C1DF2 /* Pods-PeripheralMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25FEF58F5DBD8350FED59F63D9E64401 /* Pods_PeripheralMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeripheralMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2958B1488B9CC0743B19672D346890FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DAC2BF339A3DE132AD3F2E731A04740 /* Pods-PeripheralMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		30A62ACE1FEF1CDB3E831F7AB40B0A46 /* PeripheralMenuController+CustomTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PeripheralMenuController+CustomTypes.swift"; path = "PeripheralMenu/Classes/PeripheralMenuController+CustomTypes.swift"; sourceTree = "<group>"; };
+		329C4DBA1B6212AF25E3FAF4C38AC03A /* Pods-PeripheralMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		366BC91B5AB0EB37B40E5E7B2582E9FC /* Pods-PeripheralMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeripheralMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		3CC2C48B665573802C6B0A2002550FCB /* PeripheralMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PeripheralMenu.xcconfig; sourceTree = "<group>"; };
+		412477B3F7AC737C92D4982ACCFD319D /* CenterContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenterContainmentSegue.swift; path = PeripheralMenu/Classes/CenterContainmentSegue.swift; sourceTree = "<group>"; };
+		42F2B99CC73DC00B2167CEBB4232FBB2 /* Pods-PeripheralMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeripheralMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F8110D1202849BC7A15CDB26E62AC36 /* PeripheralMenuSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeripheralMenuSegue.swift; path = PeripheralMenu/Classes/PeripheralMenuSegue.swift; sourceTree = "<group>"; };
+		552AE50BB0B8A933551BB92340DFE733 /* Pods-PeripheralMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeripheralMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		5DB6267EB5F6A968A1E24D91096B56EC /* PeripheralMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PeripheralMenu-dummy.m"; sourceTree = "<group>"; };
+		62F9A0D6A311BFB33D8ADFA11BB99A1A /* Pods-PeripheralMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeripheralMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		64D7B04DC47F1D2FCABACD784ACBFA25 /* PeripheralMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeripheralMenu-umbrella.h"; sourceTree = "<group>"; };
+		6790FC6D0CA6AEF3E5546F216E147D46 /* Pods-PeripheralMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeripheralMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CE3083A0CF153E5D50E261480C275B1 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = PeripheralMenu/Classes/UIKitExtensions.swift; sourceTree = "<group>"; };
+		719D929CF80EF3E91CC13F3203F54903 /* Pods-PeripheralMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C13BB0970B841DFCB0D05716F11CECE /* Pods-PeripheralMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeripheralMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89FB9CB2F0504F08D5D2A306721E2B66 /* PeripheralMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PeripheralMenu-Info.plist"; sourceTree = "<group>"; };
+		8E9414FF11771E2D2383F36D692173DC /* Pods-PeripheralMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeripheralMenu_Example.modulemap"; sourceTree = "<group>"; };
+		90182A5B663710653F43F9DC9925A91C /* Pods-PeripheralMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeripheralMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		9ADDEA977AF66BE1952AB65542DB190B /* Pods-PeripheralMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA6FDD9650A794AB3E815FB79035DD87 /* Pods-PeripheralMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA24057B18B20F1D2874F2E2D4A61B88 /* PeripheralMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PeripheralMenu.modulemap; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB9AA053B795900CAE483649F22C8C1C /* Pods-PeripheralMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA6ECA3B8CA24818E1BA8BAFFB580EF4 /* Pods-PeripheralMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeripheralMenu_Example-Info.plist"; sourceTree = "<group>"; };
-		ECE65262B730F6F24B4216EB1CEDCC9C /* Pods-PeripheralMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeripheralMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F051F54A04E169D2FD6D0D966339069E /* Pods-PeripheralMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeripheralMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		D0F55765109A8D35EDB2A53DF70F98FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D4962D63D627DF35E735EDF6337E82A4 /* Pods-PeripheralMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeripheralMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D888B2CC2B61C56E164089FFD3E2E2FE /* PeripheralMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PeripheralMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80B7DC9F611E06285653F25E9A7943C /* PeripheralMenuController+SideOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PeripheralMenuController+SideOver.swift"; path = "PeripheralMenu/Classes/PeripheralMenuController+SideOver.swift"; sourceTree = "<group>"; };
+		EA7DE69BF76687EED613A7650F88395F /* peripheralMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = peripheralMenuController.swift; path = PeripheralMenu/Classes/peripheralMenuController.swift; sourceTree = "<group>"; };
+		EFEFF9CDBC72F1557EC634581B7CE619 /* Pods_PeripheralMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeripheralMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F022946D8E3F6BAFDEED5F4C25494F68 /* Pods-PeripheralMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeripheralMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F67689F6C6A69CB7BBBEA36DB41824DE /* PeripheralMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeripheralMenu-prefix.pch"; sourceTree = "<group>"; };
+		F8F1FCA6837E408F6B1A31B7426F1D22 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PeripheralMenu/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27006A9CC9739ABCE3B71E79D5AA87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21DC0CAAA659C3AFEC52B370A0C722A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89E1B58292EC6E1BC256A4B5EFB688C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,73 +113,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		255978278FF6E5CDB23A042BC888555C /* Products */ = {
+		32B7B8A16BEE69F464C15DEFCCF148A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C755615B8B3294421820E16A3E873926 /* Pods_PeripheralMenu_Example.framework */,
-				303F34F48229245FA409227AD7B0E968 /* Pods_PeripheralMenu_Tests.framework */,
+				D888B2CC2B61C56E164089FFD3E2E2FE /* PeripheralMenu.framework */,
+				EFEFF9CDBC72F1557EC634581B7CE619 /* Pods_PeripheralMenu_Example.framework */,
+				25FEF58F5DBD8350FED59F63D9E64401 /* Pods_PeripheralMenu_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35D6A2A7C3749406A959750C80780039 /* Pods-PeripheralMenu_Example */ = {
+		4954F50AE0AA770B51DBF2890CA6F023 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A958FD6FAA25B141F03828B838743C3E /* Pods-PeripheralMenu_Example.modulemap */,
-				912114C54842CD632A7445E739FBC15D /* Pods-PeripheralMenu_Example-acknowledgements.markdown */,
-				5D544DC57BE985A513223B87B5D1EED7 /* Pods-PeripheralMenu_Example-acknowledgements.plist */,
-				B8C6069895B5E4B4B4B8AC451E4C8821 /* Pods-PeripheralMenu_Example-dummy.m */,
-				EA6ECA3B8CA24818E1BA8BAFFB580EF4 /* Pods-PeripheralMenu_Example-Info.plist */,
-				78136D0369E20F3529C9B79A0933F28A /* Pods-PeripheralMenu_Example-umbrella.h */,
-				40D1BBDDDCE1F1522DCD8D13619D3C23 /* Pods-PeripheralMenu_Example.debug.xcconfig */,
-				8D49C33FEB96991FBFAF7C047DC8682A /* Pods-PeripheralMenu_Example.release.xcconfig */,
-			);
-			name = "Pods-PeripheralMenu_Example";
-			path = "Target Support Files/Pods-PeripheralMenu_Example";
-			sourceTree = "<group>";
-		};
-		405AA320BDE678DC741B3A52A1D95D42 /* Pods-PeripheralMenu_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				29AC6B8A13A0564183503738A5C0A879 /* Pods-PeripheralMenu_Tests.modulemap */,
-				ECE65262B730F6F24B4216EB1CEDCC9C /* Pods-PeripheralMenu_Tests-acknowledgements.markdown */,
-				CB9AA053B795900CAE483649F22C8C1C /* Pods-PeripheralMenu_Tests-acknowledgements.plist */,
-				F051F54A04E169D2FD6D0D966339069E /* Pods-PeripheralMenu_Tests-dummy.m */,
-				61D3034E69AC6929459EC7FC890C3756 /* Pods-PeripheralMenu_Tests-Info.plist */,
-				4F925BF4424D6DC0B030DB2704B368FF /* Pods-PeripheralMenu_Tests-umbrella.h */,
-				83B248DCDD04837604FD21AD0EAE173B /* Pods-PeripheralMenu_Tests.debug.xcconfig */,
-				954A56A679B8A0E682E6BD1CB4F2743C /* Pods-PeripheralMenu_Tests.release.xcconfig */,
-			);
-			name = "Pods-PeripheralMenu_Tests";
-			path = "Target Support Files/Pods-PeripheralMenu_Tests";
-			sourceTree = "<group>";
-		};
-		423718611A23833D7A586FF80B16F885 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4B9FD2F54805C09C9646AC7073705BE /* PeripheralMenu.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PeripheralMenu";
-			sourceTree = "<group>";
-		};
-		65EFBDAE7CA61782EE56AB1798369DF0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5F6734286BBB5DE462053F3D505D818F /* LICENSE */,
-				0ABEB8A2DC0B2689CBE42860646869D5 /* PeripheralMenu.podspec */,
-				BC0F2FB9747BFF0F7D04AF1589F14FA1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6CA510494DA561313C3F2E1C453D052E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				35D6A2A7C3749406A959750C80780039 /* Pods-PeripheralMenu_Example */,
-				405AA320BDE678DC741B3A52A1D95D42 /* Pods-PeripheralMenu_Tests */,
+				B433907CF044E2B4EB6681C1E44D8453 /* Pods-PeripheralMenu_Example */,
+				A254164DFBC9D8FE1461D8D617C1F17D /* Pods-PeripheralMenu_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9002403EAD9BDC72EF31064D18836694 /* PeripheralMenu */ = {
+			isa = PBXGroup;
+			children = (
+				412477B3F7AC737C92D4982ACCFD319D /* CenterContainmentSegue.swift */,
+				4F8110D1202849BC7A15CDB26E62AC36 /* PeripheralMenuSegue.swift */,
+				EA7DE69BF76687EED613A7650F88395F /* peripheralMenuController.swift */,
+				30A62ACE1FEF1CDB3E831F7AB40B0A46 /* PeripheralMenuController+CustomTypes.swift */,
+				E80B7DC9F611E06285653F25E9A7943C /* PeripheralMenuController+SideOver.swift */,
+				0DC873E9F2346EDB194656BC3880E6A5 /* PeripheralMenuController+SideUnder.swift */,
+				F8F1FCA6837E408F6B1A31B7426F1D22 /* TransitionAnimator.swift */,
+				6CE3083A0CF153E5D50E261480C275B1 /* UIKitExtensions.swift */,
+				93115997CC16E5BAE8D702F19E018244 /* Pod */,
+				9C34CF76199790B33683072805FA1321 /* Support Files */,
+			);
+			name = PeripheralMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93115997CC16E5BAE8D702F19E018244 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D0F55765109A8D35EDB2A53DF70F98FF /* LICENSE */,
+				21AC572FF8826B4F3F5FAC0FAE057346 /* PeripheralMenu.podspec */,
+				2958B1488B9CC0743B19672D346890FE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -168,14 +168,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		9C34CF76199790B33683072805FA1321 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA24057B18B20F1D2874F2E2D4A61B88 /* PeripheralMenu.modulemap */,
+				3CC2C48B665573802C6B0A2002550FCB /* PeripheralMenu.xcconfig */,
+				5DB6267EB5F6A968A1E24D91096B56EC /* PeripheralMenu-dummy.m */,
+				89FB9CB2F0504F08D5D2A306721E2B66 /* PeripheralMenu-Info.plist */,
+				F67689F6C6A69CB7BBBEA36DB41824DE /* PeripheralMenu-prefix.pch */,
+				64D7B04DC47F1D2FCABACD784ACBFA25 /* PeripheralMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PeripheralMenu";
+			sourceTree = "<group>";
+		};
+		A254164DFBC9D8FE1461D8D617C1F17D /* Pods-PeripheralMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62F9A0D6A311BFB33D8ADFA11BB99A1A /* Pods-PeripheralMenu_Tests.modulemap */,
+				42F2B99CC73DC00B2167CEBB4232FBB2 /* Pods-PeripheralMenu_Tests-acknowledgements.markdown */,
+				9ADDEA977AF66BE1952AB65542DB190B /* Pods-PeripheralMenu_Tests-acknowledgements.plist */,
+				90182A5B663710653F43F9DC9925A91C /* Pods-PeripheralMenu_Tests-dummy.m */,
+				329C4DBA1B6212AF25E3FAF4C38AC03A /* Pods-PeripheralMenu_Tests-Info.plist */,
+				6790FC6D0CA6AEF3E5546F216E147D46 /* Pods-PeripheralMenu_Tests-umbrella.h */,
+				22804BA790CCDEDD5EA307DC6D2C1DF2 /* Pods-PeripheralMenu_Tests.debug.xcconfig */,
+				2DAC2BF339A3DE132AD3F2E731A04740 /* Pods-PeripheralMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-PeripheralMenu_Tests";
+			path = "Target Support Files/Pods-PeripheralMenu_Tests";
+			sourceTree = "<group>";
+		};
+		B433907CF044E2B4EB6681C1E44D8453 /* Pods-PeripheralMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8E9414FF11771E2D2383F36D692173DC /* Pods-PeripheralMenu_Example.modulemap */,
+				D4962D63D627DF35E735EDF6337E82A4 /* Pods-PeripheralMenu_Example-acknowledgements.markdown */,
+				AA6FDD9650A794AB3E815FB79035DD87 /* Pods-PeripheralMenu_Example-acknowledgements.plist */,
+				552AE50BB0B8A933551BB92340DFE733 /* Pods-PeripheralMenu_Example-dummy.m */,
+				F022946D8E3F6BAFDEED5F4C25494F68 /* Pods-PeripheralMenu_Example-frameworks.sh */,
+				1E1681A3344DEB943DEE3D6649236351 /* Pods-PeripheralMenu_Example-Info.plist */,
+				366BC91B5AB0EB37B40E5E7B2582E9FC /* Pods-PeripheralMenu_Example-umbrella.h */,
+				719D929CF80EF3E91CC13F3203F54903 /* Pods-PeripheralMenu_Example.debug.xcconfig */,
+				7C13BB0970B841DFCB0D05716F11CECE /* Pods-PeripheralMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-PeripheralMenu_Example";
+			path = "Target Support Files/Pods-PeripheralMenu_Example";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E686132277D70D5AF35F0D2A8438EEE7 /* Development Pods */,
+				FE794014800D5C8B97BA13287D15F30D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				255978278FF6E5CDB23A042BC888555C /* Products */,
-				6CA510494DA561313C3F2E1C453D052E /* Targets Support Files */,
+				32B7B8A16BEE69F464C15DEFCCF148A3 /* Products */,
+				4954F50AE0AA770B51DBF2890CA6F023 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,20 +234,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6012E7185D5967679CD315C9590762F /* PeripheralMenu */ = {
+		FE794014800D5C8B97BA13287D15F30D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65EFBDAE7CA61782EE56AB1798369DF0 /* Pod */,
-				423718611A23833D7A586FF80B16F885 /* Support Files */,
-			);
-			name = PeripheralMenu;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E686132277D70D5AF35F0D2A8438EEE7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6012E7185D5967679CD315C9590762F /* PeripheralMenu */,
+				9002403EAD9BDC72EF31064D18836694 /* PeripheralMenu */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -224,6 +261,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FCCC878D1DD202D5323A07EB23A9C2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34F9A55FF9344D1D6E876D4FF114C96 /* PeripheralMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -243,7 +288,7 @@
 			);
 			name = "Pods-PeripheralMenu_Tests";
 			productName = "Pods-PeripheralMenu_Tests";
-			productReference = 303F34F48229245FA409227AD7B0E968 /* Pods_PeripheralMenu_Tests.framework */;
+			productReference = 25FEF58F5DBD8350FED59F63D9E64401 /* Pods_PeripheralMenu_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		248042713173950B224D3482ECE27A28 /* Pods-PeripheralMenu_Example */ = {
@@ -262,7 +307,25 @@
 			);
 			name = "Pods-PeripheralMenu_Example";
 			productName = "Pods-PeripheralMenu_Example";
-			productReference = C755615B8B3294421820E16A3E873926 /* Pods_PeripheralMenu_Example.framework */;
+			productReference = EFEFF9CDBC72F1557EC634581B7CE619 /* Pods_PeripheralMenu_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E8CDE44A3839C654FF2A1E5BDD599F0 /* PeripheralMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E45B0EA735C527044F2438CC0DAC600 /* Build configuration list for PBXNativeTarget "PeripheralMenu" */;
+			buildPhases = (
+				7FCCC878D1DD202D5323A07EB23A9C2D /* Headers */,
+				18CD18B24A67A35CA89BF9DBA513AD73 /* Sources */,
+				B21DC0CAAA659C3AFEC52B370A0C722A /* Frameworks */,
+				B1063B30706DA007DFE691116254DB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeripheralMenu;
+			productName = PeripheralMenu;
+			productReference = D888B2CC2B61C56E164089FFD3E2E2FE /* PeripheralMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -279,14 +342,15 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 255978278FF6E5CDB23A042BC888555C /* Products */;
+			productRefGroup = 32B7B8A16BEE69F464C15DEFCCF148A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				803899A6CB4F1458084B967893831EB9 /* PeripheralMenu */,
+				2E8CDE44A3839C654FF2A1E5BDD599F0 /* PeripheralMenu */,
 				248042713173950B224D3482ECE27A28 /* Pods-PeripheralMenu_Example */,
 				23DB62FCD26119D88E3A607B4BC1CEC6 /* Pods-PeripheralMenu_Tests */,
 			);
@@ -308,9 +372,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1063B30706DA007DFE691116254DB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18CD18B24A67A35CA89BF9DBA513AD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DACF1AAEA1EC2ACA16AD4332C55F7C /* CenterContainmentSegue.swift in Sources */,
+				0AE4AF3E65CB52436059DC29898DB254 /* PeripheralMenu-dummy.m in Sources */,
+				F87DC5C21177121C857D11A89841997E /* PeripheralMenuSegue.swift in Sources */,
+				825D94293D6F98368FCDB7ED3B4C6173 /* PeripheralMenuController+CustomTypes.swift in Sources */,
+				B60F609F7FEA2CB8F74F35C04816C622 /* PeripheralMenuController+SideOver.swift in Sources */,
+				CE7B6F3D97913B88FF7187C29C6861F6 /* PeripheralMenuController+SideUnder.swift in Sources */,
+				0ED988D3648CA1DA89F26801B292C81C /* peripheralMenuController.swift in Sources */,
+				9DBAEFF3A18C7D103293776E04755463 /* TransitionAnimator.swift in Sources */,
+				C7980318B402A6729082888AD5E66187 /* UIKitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFA59E1771B3E677404F68A8838AAB79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,97 +426,12 @@
 		69630E28D6BE8FE196D1428DB092ECEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PeripheralMenu;
-			target = 803899A6CB4F1458084B967893831EB9 /* PeripheralMenu */;
+			target = 2E8CDE44A3839C654FF2A1E5BDD599F0 /* PeripheralMenu */;
 			targetProxy = 2F7778DBF8DB83339436BCD95831B0A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		099EA0CEC1EC9B68AE71C86BCEC594FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B248DCDD04837604FD21AD0EAE173B /* Pods-PeripheralMenu_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PeripheralMenu_Tests/Pods-PeripheralMenu_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PeripheralMenu_Tests/Pods-PeripheralMenu_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		26D34B8BD4E24B737355430A04679B27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4B9FD2F54805C09C9646AC7073705BE /* PeripheralMenu.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		36E526A9DBC0E890591021F815208C5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40D1BBDDDCE1F1522DCD8D13619D3C23 /* Pods-PeripheralMenu_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PeripheralMenu_Example/Pods-PeripheralMenu_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PeripheralMenu_Example/Pods-PeripheralMenu_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4093433A309EFE160336AC736594AB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,12 +496,11 @@
 			};
 			name = Debug;
 		};
-		7EE44016880FB890831FB811AED7FF7F /* Release */ = {
+		4C6F8EC97979A0AA92E8D290E7B43844 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D49C33FEB96991FBFAF7C047DC8682A /* Pods-PeripheralMenu_Example.release.xcconfig */;
+			baseConfigurationReference = 7C13BB0970B841DFCB0D05716F11CECE /* Pods-PeripheralMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -530,12 +531,77 @@
 			};
 			name = Release;
 		};
-		8FFDE7BD1CEFD629C04F343FEE8947A5 /* Release */ = {
+		5092F86DBA69D16F07807D073675382F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 954A56A679B8A0E682E6BD1CB4F2743C /* Pods-PeripheralMenu_Tests.release.xcconfig */;
+			baseConfigurationReference = 719D929CF80EF3E91CC13F3203F54903 /* Pods-PeripheralMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeripheralMenu_Example/Pods-PeripheralMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeripheralMenu_Example/Pods-PeripheralMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		510C1AC424DCA24A7D019325B0A60E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC2C48B665573802C6B0A2002550FCB /* PeripheralMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PeripheralMenu/PeripheralMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PeripheralMenu/PeripheralMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PeripheralMenu/PeripheralMenu.modulemap";
+				PRODUCT_MODULE_NAME = PeripheralMenu;
+				PRODUCT_NAME = PeripheralMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		887119654D16A4283A8EEF5A2AE45833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22804BA790CCDEDD5EA307DC6D2C1DF2 /* Pods-PeripheralMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -560,11 +626,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -619,26 +684,77 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		AB5DF1384AF6EF6BB131C8629B293B81 /* Release */ = {
+		A1F0C02788BC7C6DA88F6649B224F73D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4B9FD2F54805C09C9646AC7073705BE /* PeripheralMenu.xcconfig */;
+			baseConfigurationReference = 3CC2C48B665573802C6B0A2002550FCB /* PeripheralMenu.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PeripheralMenu/PeripheralMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PeripheralMenu/PeripheralMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PeripheralMenu/PeripheralMenu.modulemap";
+				PRODUCT_MODULE_NAME = PeripheralMenu;
+				PRODUCT_NAME = PeripheralMenu;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E22497E4BD2DB95EF1F620FD4CDC3534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAC2BF339A3DE132AD3F2E731A04740 /* Pods-PeripheralMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeripheralMenu_Tests/Pods-PeripheralMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeripheralMenu_Tests/Pods-PeripheralMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -648,8 +764,17 @@
 		1D3C1B53B59079A96C1925D3E36CBA1D /* Build configuration list for PBXNativeTarget "Pods-PeripheralMenu_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				099EA0CEC1EC9B68AE71C86BCEC594FD /* Debug */,
-				8FFDE7BD1CEFD629C04F343FEE8947A5 /* Release */,
+				887119654D16A4283A8EEF5A2AE45833 /* Debug */,
+				E22497E4BD2DB95EF1F620FD4CDC3534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E45B0EA735C527044F2438CC0DAC600 /* Build configuration list for PBXNativeTarget "PeripheralMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510C1AC424DCA24A7D019325B0A60E92 /* Debug */,
+				A1F0C02788BC7C6DA88F6649B224F73D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -666,17 +791,8 @@
 		9C2C1BD05F80715B9B79D59D681346C1 /* Build configuration list for PBXNativeTarget "Pods-PeripheralMenu_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36E526A9DBC0E890591021F815208C5B /* Debug */,
-				7EE44016880FB890831FB811AED7FF7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B47AC8F0676D4DF80CB7A5CD53E4AC7D /* Build configuration list for PBXAggregateTarget "PeripheralMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26D34B8BD4E24B737355430A04679B27 /* Debug */,
-				AB5DF1384AF6EF6BB131C8629B293B81 /* Release */,
+				5092F86DBA69D16F07807D073675382F /* Debug */,
+				4C6F8EC97979A0AA92E8D290E7B43844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

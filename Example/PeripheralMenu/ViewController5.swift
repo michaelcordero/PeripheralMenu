@@ -12,8 +12,12 @@ class ViewController5: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        view.backgroundColor = .purple
+        self.title = "View5"
     }
     
 

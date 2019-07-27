@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PeripheralMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow()
+        let pmc: PeripheralMenuController = PeripheralMenuController()
+        // set preferences
+        PeripheralMenuController.preferences.drawing.menuButtonImage = #imageLiteral(resourceName: "menu-light").withRenderingMode(.alwaysTemplate)
+        PeripheralMenuController.preferences.drawing.sidePanelPosition = .overCenterPanelLeft
+        PeripheralMenuController.preferences.drawing.sidePanelWidth = 400
+        PeripheralMenuController.preferences.drawing.centerPanelShadow = true
+        PeripheralMenuController.preferences.animating.statusBarBehaviour = .showUnderlay
+        PeripheralMenuController.preferences.drawing.centerPanelOverlayColor = UIColor.gray
+        PeripheralMenuController.preferences.drawing.centerPanelShadow = false
+        
+        // setup views
+        pmc.embed(sideViewController: MenuTableViewController())
+        pmc.embed(centerViewController: Navigation.NAV_VIEW_CONTROLLERS[0])
+        
+        // setup navigation bar constants
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().barTintColor = UIColor.gray
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        // application launch code
+        self.window?.rootViewController = pmc
+        self.window?.makeKeyAndVisible()
         return true
     }
 

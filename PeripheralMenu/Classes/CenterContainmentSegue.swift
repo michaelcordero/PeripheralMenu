@@ -24,13 +24,13 @@
 open class CenterContainmentSegue: UIStoryboardSegue{
     
     override open func perform() {
-        if let sideController = self.source as? SideMenuController {
+        if let peripheralController = self.source as? PeripheralMenuController {
             guard let destinationController = destination as? UINavigationController else {
                 fatalError("Destination controller needs to be an instance of UINavigationController")
             }
-            sideController.embed(centerViewController: destinationController)
+            peripheralController.embed(centerViewController: destinationController)
         } else {
-            fatalError("This type of segue must only be used from a SideMenuController")
+            fatalError("This type of segue must only be used from a PeripheralMenuController")
         }
     }
 }

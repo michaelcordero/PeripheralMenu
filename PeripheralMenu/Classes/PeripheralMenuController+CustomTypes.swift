@@ -1,6 +1,6 @@
 //
-//  SideMenuController+CustomTypes.swift
-//  SideMenuController
+//  PeripheralMenuController+CustomTypes.swift
+//  PeripheralMenuController
 //
 //  Created by Michael Cordero on 07/27/2019
 //  Copyright (c) 2019 Michael Cordero All rights reserved.

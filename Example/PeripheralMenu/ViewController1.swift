@@ -12,8 +12,11 @@ class ViewController1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         view.backgroundColor = .white
-        // Do any additional setup after loading the view, typically from a nib.
+        self.title = "View1"
     }
 
     override func didReceiveMemoryWarning() {

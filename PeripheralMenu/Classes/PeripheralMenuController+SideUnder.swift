@@ -1,5 +1,5 @@
 //
-//  SideMenuController+SideUnder.swift
+//  PeripheralMenuController+SideUnder.swift
 //
 //  Copyright (c) 2019 Michael Cordero
 //
@@ -105,7 +105,7 @@ extension PeripheralMenuController {
     
     @objc func handleCenterPanelPan(_ recognizer: UIPanGestureRecognizer){
         
-        guard canDisplaySideController else {
+        guard canDisplayperipheralController else {
             return
         }
         
