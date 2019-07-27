@@ -29,10 +29,9 @@ This CocoaPod creates a reusable, customizable side menu for API users. It is es
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-  s.swift_version = '5.0'
 
-  s.source_files = 'PeripheralMenu/Classes/**'
-  
+  s.source_files = 'PeripheralMenu/Classes/**/*'
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'PeripheralMenu' => ['PeripheralMenu/Assets/*.png']
   # }

@@ -151,21 +151,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		73BD44F922ECF58400E8828E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				73BD44F022ECF39100E8828E /* CenterContainmentSegue.swift */,
-				73BD44EB22ECF39000E8828E /* SideContainmentSegue.swift */,
-				73BD44EC22ECF39100E8828E /* SideMenuController.swift */,
-				73BD44EF22ECF39100E8828E /* SideMenuController+CustomTypes.swift */,
-				73BD44EA22ECF39000E8828E /* SideMenuController+SideOver.swift */,
-				73BD44E922ECF39000E8828E /* SideMenuController+SideUnder.swift */,
-				73BD44ED22ECF39100E8828E /* TransitionAnimator.swift */,
-				73BD44EE22ECF39100E8828E /* UIKitExtensions.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +162,14 @@
 		A0B6291E4B46A31D1B986AB240961BB1 /* PeripheralMenu */ = {
 			isa = PBXGroup;
 			children = (
-				73BD44F922ECF58400E8828E /* Classes */,
+				73BD44F022ECF39100E8828E /* CenterContainmentSegue.swift */,
+				73BD44EB22ECF39000E8828E /* SideContainmentSegue.swift */,
+				73BD44EC22ECF39100E8828E /* SideMenuController.swift */,
+				73BD44EF22ECF39100E8828E /* SideMenuController+CustomTypes.swift */,
+				73BD44EA22ECF39000E8828E /* SideMenuController+SideOver.swift */,
+				73BD44E922ECF39000E8828E /* SideMenuController+SideUnder.swift */,
+				73BD44ED22ECF39100E8828E /* TransitionAnimator.swift */,
+				73BD44EE22ECF39100E8828E /* UIKitExtensions.swift */,
 				482E5909F9E9AEEB1CC6C3212428A9E6 /* Pod */,
 				EA7F98C24FFDCEC9990B3C431BD6FF18 /* Support Files */,
 			);
