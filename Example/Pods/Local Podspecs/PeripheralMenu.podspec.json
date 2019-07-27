@@ -1,0 +1,22 @@
+{
+  "name": "PeripheralMenu",
+  "version": "0.1.0",
+  "summary": "A short description of PeripheralMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/michaelcordero/PeripheralMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "michaelcordero": "michaelpetercordero@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/michaelcordero/PeripheralMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PeripheralMenu/Classes/**/*"
+}

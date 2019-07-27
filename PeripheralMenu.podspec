@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PeripheralMenu'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PeripheralMenu.'
+  s.summary          = 'PeripheralMenu is essentially a re-usable side menu with some customizations.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This CocoaPod creates a reusable, customizable side menu for API users. It is essentially a fork of the SideMenuController by TeodorPatras, with extended functionality and will always be maintained and updated to latest Swift language version.
                        DESC
 
   s.homepage         = 'https://github.com/michaelcordero/PeripheralMenu'
