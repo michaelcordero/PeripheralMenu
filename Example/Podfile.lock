@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PeripheralMenu: 281a215d0ee8afd5168ff89663326ce3775283c1
+  PeripheralMenu: e384ddb2ac47a2db349eb80a0f24a1315cff0fef
 
 PODFILE CHECKSUM: 9c14a8901a7903da7a039222169a9f47749edfc1
 

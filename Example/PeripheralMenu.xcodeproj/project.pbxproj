@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				117A69FD23299AE6AFDD7827 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,28 +260,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		117A69FD23299AE6AFDD7827 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PeripheralMenu_Example/Pods-PeripheralMenu_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PeripheralMenu/PeripheralMenu.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PeripheralMenu.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeripheralMenu_Example/Pods-PeripheralMenu_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1C9446BE323E54C69B1D617E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
