@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PeripheralMenu'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'PeripheralMenu is essentially a re-usable side menu with some customizations.'
 
 # This description is used to generate tags and improve search results.
