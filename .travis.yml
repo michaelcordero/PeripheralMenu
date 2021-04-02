@@ -2,7 +2,6 @@ os:
  - osx
 language: swift
 osx_image: xcode12.2
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
 install: swift package update
 script:
-  - swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios14.4-simulator"
+  - swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios14.2-simulator"
