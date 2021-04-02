@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "00ec38aae6449e1e8a0851b77da99430"
+build_time: [1617333854, 146739000]
+inputs:
+  "/Users/michaelcordero/Development/PeripheralMenu/Tests/PeripheralMenuTests/PeripheralMenuTests.swift": [1617333838, 423194268]
+  "/Users/michaelcordero/Development/PeripheralMenu/Tests/PeripheralMenuTests/XCTestManifests.swift": [1617333838, 423442566]
