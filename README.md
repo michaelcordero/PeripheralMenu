@@ -7,19 +7,20 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run swift build && swift test from the project directory.
 
 ## Requirements
-* iOS 12.0
-* Swift 5.0
+* iOS 14.0+
+* Swift 5.0+
 
 ## Installation
 
-PeripheralMenu is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+PeripheralMenu is available through [github](https://github.com/michaelcordero/PeripheralMenu). 
 
-```ruby
-pod 'PeripheralMenu'
+```
+git clone https://github.com/michaelcordero/PeripheralMenu
+swift build 
+swift test
 ```
 
 ## Author
