@@ -22,6 +22,7 @@
 //  SOFTWARE.
 
 import Foundation
+import UIKit
 
 let DefaultStatusBarHeight : CGFloat = 20
 

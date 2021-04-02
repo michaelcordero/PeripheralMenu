@@ -5,6 +5,7 @@
 //  Created by Michael Cordero on 07/27/2019
 //  Copyright (c) 2019 Michael Cordero All rights reserved.
 //
+import UIKit
 
 // MARK: - Extension for implementing the custom nested types
 public extension PeripheralMenuController {
