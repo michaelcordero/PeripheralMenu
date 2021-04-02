@@ -3,6 +3,3 @@ os:
 language: swift
 osx_image: xcode12.2
 install: swift package update
-script:
-  - swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios14.0-simulator
-  - swift test
