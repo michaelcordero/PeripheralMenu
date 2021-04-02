@@ -413,7 +413,9 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     
     fileprivate var previousStatusBarHeight: CGFloat = DefaultStatusBarHeight
     fileprivate var statusBarHeight: CGFloat {
-        return UIApplication.shared.statusBarFrame.size.height > 0 ? UIApplication.shared.statusBarFrame.size.height : DefaultStatusBarHeight
+        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        let height = window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+        return height > 0 ? height : DefaultStatusBarHeight
     }
     
     fileprivate var hidesStatusBar: Bool {
