@@ -22,10 +22,7 @@
 //  SOFTWARE.
 
 import UIKit
-<<<<<<< HEAD
 import Foundation
-=======
->>>>>>> master
 
 public protocol PeripheralMenuControllerDelegate: class {
     func PeripheralMenuControllerDidHide(_ PeripheralMenuController: PeripheralMenuController)
