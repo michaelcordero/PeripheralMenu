@@ -185,7 +185,7 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        NotificationCenter.default.addObserver(self, selector: #selector(peripheralMenuController!.repositionViews), name: UIApplication.willChangeStatusBarFrameNotification, object: UIApplication.shared)
+        NotificationCenter.default.addObserver(self, selector: #selector(peripheralMenuController!.repositionViews), name: UIApplication.backgroundRefreshStatusDidChangeNotification, object: UIApplication.shared)
     }
     
     override open func viewWillDisappear(_ animated: Bool) {
