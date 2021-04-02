@@ -184,8 +184,10 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     }
     
     open override func viewWillAppear(_ animated: Bool) {
+        // more details on the former willChangeStatusBarFrameNotification
+        // [here](https://developer.apple.com/documentation/uikit/uiapplicationdidchangestatusbarframenotification)
         super.viewWillAppear(animated)
-        NotificationCenter.default.addObserver(self, selector: #selector(peripheralMenuController!.repositionViews), name: UIApplication.willChangeStatusBarFrameNotification, object: UIApplication.shared)
+        NotificationCenter.default.addObserver(self, selector: #selector(peripheralMenuController!.repositionViews), name: UIApplication.backgroundRefreshStatusDidChangeNotification, object: UIApplication.shared)
     }
     
     override open func viewWillDisappear(_ animated: Bool) {
@@ -386,12 +388,7 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     // MARK: - Computed variables -
     
     fileprivate var sbw: UIWindow? {
-        
-        let s = "status"
-        let b = "Bar"
-        let w = "Window"
-        
-        return UIApplication.shared.value(forKey: s+b+w) as? UIWindow
+        return UIApplication.shared.windows.filter {$0.isKeyWindow}.first
     }
     
     fileprivate var showsStatusUnderlay: Bool {
@@ -413,7 +410,9 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     
     fileprivate var previousStatusBarHeight: CGFloat = DefaultStatusBarHeight
     fileprivate var statusBarHeight: CGFloat {
-        return UIApplication.shared.statusBarFrame.size.height > 0 ? UIApplication.shared.statusBarFrame.size.height : DefaultStatusBarHeight
+        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        let height = window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+        return height > 0 ? height : DefaultStatusBarHeight
     }
     
     fileprivate var hidesStatusBar: Bool {
