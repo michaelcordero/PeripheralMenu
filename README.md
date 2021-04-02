@@ -1,9 +1,9 @@
 # PeripheralMenu
 
 [![CI Status](https://img.shields.io/travis/michaelcordero/PeripheralMenu.svg?style=flat)](https://travis-ci.org/michaelcordero/PeripheralMenu)
-[![Version](https://img.shields.io/cocoapods/v/PeripheralMenu.svg?style=flat)](https://cocoapods.org/pods/PeripheralMenu)
-[![License](https://img.shields.io/cocoapods/l/PeripheralMenu.svg?style=flat)](https://cocoapods.org/pods/PeripheralMenu)
-[![Platform](https://img.shields.io/cocoapods/p/PeripheralMenu.svg?style=flat)](https://cocoapods.org/pods/PeripheralMenu)
+[![Version](https://img.shields.io/github/v/tag/michaelcordero/PeripheralMenu)](https://github.com/michaelcordero/PeripheralMenu/tags)
+[![License](https://img.shields.io/github/license/michaelcordero/PeripheralMenu)](https://github.com/michaelcordero/PeripheralMenu/blob/master/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/PeripheralMenu.svg?style=flat)](https://github.com/michaelcordero/PeripheralMenu)
 
 ## Example
 
@@ -15,7 +15,8 @@ To run the example project, clone the repo, and run swift build && swift test fr
 
 ## Installation
 
-PeripheralMenu is available through [github](https://github.com/michaelcordero/PeripheralMenu). 
+PeripheralMenu is available through [github](https://github.com/michaelcordero/PeripheralMenu).
+Please install using Swift Package Manager.
 
 ```
 git clone https://github.com/michaelcordero/PeripheralMenu
