@@ -1,25 +1,27 @@
 # PeripheralMenu
 
 [![CI Status](https://img.shields.io/travis/michaelcordero/PeripheralMenu.svg?style=flat)](https://travis-ci.org/michaelcordero/PeripheralMenu)
-[![Version](https://img.shields.io/cocoapods/v/PeripheralMenu.svg?style=flat)](https://cocoapods.org/pods/PeripheralMenu)
-[![License](https://img.shields.io/cocoapods/l/PeripheralMenu.svg?style=flat)](https://cocoapods.org/pods/PeripheralMenu)
-[![Platform](https://img.shields.io/cocoapods/p/PeripheralMenu.svg?style=flat)](https://cocoapods.org/pods/PeripheralMenu)
+[![Version](https://img.shields.io/github/v/tag/michaelcordero/PeripheralMenu)](https://github.com/michaelcordero/PeripheralMenu/tags)
+[![License](https://img.shields.io/github/license/michaelcordero/PeripheralMenu)](https://github.com/michaelcordero/PeripheralMenu/blob/master/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/PeripheralMenu.svg?style=flat)](https://github.com/michaelcordero/PeripheralMenu)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run swift build && swift test from the project directory.
 
 ## Requirements
-* iOS 12.0
-* Swift 5.0
+* iOS 14.0+
+* Swift 5.0+
 
 ## Installation
 
-PeripheralMenu is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+PeripheralMenu is available through [github](https://github.com/michaelcordero/PeripheralMenu).
+Please install using Swift Package Manager.
 
-```ruby
-pod 'PeripheralMenu'
+```
+git clone https://github.com/michaelcordero/PeripheralMenu
+swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios14.2-simulator"
+swift test
 ```
 
 ## Author

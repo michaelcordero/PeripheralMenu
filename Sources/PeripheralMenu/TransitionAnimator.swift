@@ -22,6 +22,10 @@
 //  SOFTWARE.
 
 import Foundation
+<<<<<<< HEAD
+import UIKit
+=======
+>>>>>>> master
 
 /**
  *  Protocol for defining custom animations for when switching the center view controller.
