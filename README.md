@@ -20,7 +20,7 @@ Please install using Swift Package Manager.
 
 ```
 git clone https://github.com/michaelcordero/PeripheralMenu
-swift build 
+swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios14.2-simulator"
 swift test
 ```
 
