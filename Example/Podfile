@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+
+use_frameworks!
+
+target 'PeripheralMenu_Example' do
+  pod 'PeripheralMenu', :path => '../'
+
+  target 'PeripheralMenu_Tests' do
+    inherit! :search_paths
+  end
+end
