@@ -386,15 +386,7 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     // MARK: - Computed variables -
     
     fileprivate var sbw: UIWindow? {
-        
-//        let s = "status"
-//        let b = "Bar"
-//        let w = "Window"
-//
-//        return UIApplication.shared.value(forKey: s+b+w) as? UIWindow
-        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-        //let height = window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
-        return window
+        return UIApplication.shared.windows.filter {$0.isKeyWindow}.first
     }
     
     fileprivate var showsStatusUnderlay: Bool {
