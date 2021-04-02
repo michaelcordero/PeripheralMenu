@@ -184,6 +184,8 @@ open class PeripheralMenuController: UIViewController, UIGestureRecognizerDelega
     }
     
     open override func viewWillAppear(_ animated: Bool) {
+        // more details on the former willChangeStatusBarFrameNotification
+        // [here](https://developer.apple.com/documentation/uikit/uiapplicationdidchangestatusbarframenotification)
         super.viewWillAppear(animated)
         NotificationCenter.default.addObserver(self, selector: #selector(peripheralMenuController!.repositionViews), name: UIApplication.backgroundRefreshStatusDidChangeNotification, object: UIApplication.shared)
     }
